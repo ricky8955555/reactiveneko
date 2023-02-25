@@ -7,6 +7,7 @@ const nextConfig = {
     basePath: process.env.BASE_PATH || '',
     images: {
         formats: ['image/avif', 'image/webp'],
+        unoptimized: true,
     },
     webpack: (config, options) => {
         config.module.rules.push({

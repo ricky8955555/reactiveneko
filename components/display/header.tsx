@@ -63,7 +63,7 @@ export const ProfileNameStandout = ({
 export const ProfileName = ({ children }: PropsWithChildren<unknown>) => (
     <div className="profile-name">
         <h1 className="content">{children}</h1>
-        <span className="description">preferred-name</span>
+        <span className="description">Preferred Name</span>
         <style jsx>{`
             .profile-name {
                 background: #555;
@@ -170,13 +170,15 @@ export const Header = ({
     children,
     profileName,
     profilePicture,
+    profileSource,
 }: PropsWithChildren<{
     profileName: ReactNode
     profilePicture: StaticImageData
+    profileSource: string
 }>) => (
     <header className="header row">
         <div className="column column-picture">
-            <a className="picture-container" href={profilePicture.src}>
+            <a className="picture-container" href={profileSource}>
                 <Image src={profilePicture} alt="profile picture" style={{ height: 'auto', width: '100%' }} />
             </a>
         </div>
