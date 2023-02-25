@@ -194,14 +194,14 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     </Paragraph>
                     <Paragraph>
                         Love&nbsp;
-                        <a href="https://vocaloid.fandom.com/wiki/Kagamine" className="link">
+                        <a href="https://vocaloid.fandom.com/wiki/Kagamine_Rin_%26_Len" className="link">
                             Kagamine Len
                         </a>
                         <span className="external-link-icon">
                             <FaExternalLinkAlt />
                         </span>
                         &nbsp;and&nbsp;
-                        <a href="https://hunterxhunter.fandom.com/wiki/Killua" className="link">
+                        <a href="https://hunterxhunter.fandom.com/wiki/Killua_Zoldyck" className="link">
                             Killua Zoldyck
                         </a>
                         <span className="external-link-icon">
@@ -214,7 +214,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
             <Footer>
                 <FooterParagraph icon={IoGitBranch}>
                     Fork this template on GitHub:&nbsp;
-                    <a className="link" href="https://github.com/amphineko/atomicneko">
+                    <a className="link" href="https://github.com/amphineko/reactiveneko">
                         amphineko/reactiveneko
                     </a>
                     <span className="external-link-icon">
