@@ -75,7 +75,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Platforms</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="PC">Windows 11</Monoline>
+                            <Monoline comment="pc">openSUSE Tumbleweed</Monoline>
                             <Monoline comment="mobile">MIUI 13</Monoline>
                             <Monoline comment="server, primary">Debian 11 (bullseye)</Monoline>
                             <Monoline comment="server">Ubuntu 22.04 (jammy)</Monoline>
@@ -183,7 +183,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         Hi, here is <del>a humanoid tool</del> {'(aka. "工具人" in Chinese)'}.
                     </Paragraph>
                     <Paragraph>
-                        {"I'm"} a shotacon who is fond of shota in anime and cute teenage boys in reality.
+                        {"I'm"} a shotacon who is fond of shota in anime.
                     </Paragraph>
                 </Description>
                 <Description>
