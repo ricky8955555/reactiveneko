@@ -2,7 +2,7 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
-name: Deploy Next.js site to Pages
+name: Deploy Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -43,8 +43,8 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-      - name: Install Next.js
-        run: yarn install nextjs
+      - name: Install dependencies
+        run: yarn install
       - name: Build
         run: yarn build
       - name: Static HTML export
