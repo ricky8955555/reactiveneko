@@ -147,12 +147,12 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
 
                 <AccountShowcase.Category title="e-mails">
                     <AccountShowcase.Account
-                        href="mailto://ricky8955555@gmail.com"
+                        href="mailto://rkmiao@duck.com"
                         icon={<FaEnvelope />}
                         iconBackground="#46578B"
-                        platform="Gmail"
+                        platform="Email"
                     >
-                        ricky8955555@gmail.com
+                        rkmiao@duck.com
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
