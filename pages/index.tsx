@@ -147,7 +147,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
 
                 <AccountShowcase.Category title="e-mails">
                     <AccountShowcase.Account
-                        href="mailto://rkmiao@duck.com"
+                        href="mailto:rkmiao@duck.com"
                         icon={<FaEnvelope />}
                         iconBackground="#46578B"
                         platform="Email"
