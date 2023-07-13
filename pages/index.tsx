@@ -73,11 +73,12 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
-                        <ProfileAddonGroupTitle>Platforms</ProfileAddonGroupTitle>
+                        <ProfileAddonGroupTitle>Operating Systems</ProfileAddonGroupTitle>
                         <MonolineGroup>
                             <Monoline comment="pc">openSUSE Tumbleweed</Monoline>
                             <Monoline comment="mobile">MIUI 13</Monoline>
                             <Monoline comment="server, primary">Debian 11 (bullseye)</Monoline>
+                            <Monoline comment="server">Debian 12 (bookworm)</Monoline>
                             <Monoline comment="server">Ubuntu 22.04 (jammy)</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
