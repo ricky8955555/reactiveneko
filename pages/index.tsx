@@ -117,12 +117,12 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     </AccountShowcase.Account>
 
                     <AccountShowcase.Account
-                        href="https://www.zhihu.com/people/ricky8955555"
+                        href="https://decent.moe/@ricky"
                         icon={<FaComment />}
                         iconBackground="#62CCFF"
-                        platform="Zhihu"
+                        platform="Fediverse (MissKey)"
                     >
-                        @ricky8955555
+                        @ricky@decent.moe
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
