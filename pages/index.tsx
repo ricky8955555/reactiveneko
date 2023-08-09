@@ -120,7 +120,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         href="https://decent.moe/@ricky"
                         icon={<FaComment />}
                         iconBackground="#62CCFF"
-                        platform="Fediverse (MissKey)"
+                        platform="Fediverse (Misskey)"
                     >
                         @ricky@decent.moe
                     </AccountShowcase.Account>
