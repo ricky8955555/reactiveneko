@@ -184,8 +184,8 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         Hi, here is <del>a humanoid tool</del> {'(aka. "工具人" in Chinese)'}.
                     </Paragraph>
                     <Paragraph>
-                        {"I'm"} a shotacon who is fond of shota in anime. And I enjoy listening songs sung by Virtual
-                        Singer.
+                        {"I'm"} a shotacon who is fond of shota in anime. And I enjoy listening songs sung by virtual
+                        singers.
                     </Paragraph>
                 </Description>
                 <Description>
