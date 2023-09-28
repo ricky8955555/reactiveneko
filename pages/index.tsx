@@ -59,7 +59,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Education</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline>Senior high student</Monoline>
+                            <Monoline>Undergraduate student</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
