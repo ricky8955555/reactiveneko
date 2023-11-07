@@ -34,6 +34,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                 profilePicture={ProfilePicture}
                 profileName={
                     <>
+                        {/* Phrinky */}
                         Phrinky
                     </>
                 }
