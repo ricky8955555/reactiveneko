@@ -34,8 +34,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                 profilePicture={ProfilePicture}
                 profileName={
                     <>
-                        {/* Ricky8955555 */}
-                        Ricky8955555
+                        Phrinky
                     </>
                 }
                 profileSource="https://www.pixiv.net/artworks/97558489"
@@ -44,6 +43,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Aka.</ProfileAddonGroupTitle>
                         <MonolineGroup>
+                            <Monoline comment="since 2010">Ricky8955555</Monoline>
                             <Monoline comment="since 201?">Mokingboom</Monoline>
                             <Monoline comment="since 202?">Rkmiao</Monoline>
                         </MonolineGroup>
@@ -59,7 +59,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Education</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline>Undergraduate student</Monoline>
+                            <Monoline>Undergraduate</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
