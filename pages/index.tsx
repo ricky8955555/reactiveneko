@@ -53,6 +53,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         <ProfileAddonGroupTitle>Languages</ProfileAddonGroupTitle>
                         <MonolineGroup>
                             <Monoline comment="native, primary">zh-cmn-Hans</Monoline>
+                            <Monoline comment="native, primary">zh-yue-Hans</Monoline>
                             <Monoline comment="installed">en-{'{US,GB}'}</Monoline>
                             <Monoline comment="installing">ja</Monoline>
                         </MonolineGroup>
