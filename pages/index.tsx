@@ -2,11 +2,8 @@ import { GetStaticProps, NextPage } from 'next'
 import {
     FaExternalLinkAlt,
     FaGithub,
-    FaNetworkWired,
     FaTelegramPlane,
-    FaTwitter,
     FaEnvelope,
-    FaComment,
     FaWikipediaW,
     FaCreativeCommons,
 } from 'react-icons/fa'
@@ -71,6 +68,7 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                             <Monoline comment="installed">C#</Monoline>
                             <Monoline comment="partially installed">HTML, CSS, JS</Monoline>
                             <Monoline comment="installing">Rust</Monoline>
+                            <Monoline comment="installing">Zig</Monoline>
                             <Monoline comment="uninstalling (?)">VB, VB.NET</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
@@ -78,10 +76,9 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         <ProfileAddonGroupTitle>Operating Systems</ProfileAddonGroupTitle>
                         <MonolineGroup>
                             <Monoline comment="pc">openSUSE Tumbleweed</Monoline>
-                            <Monoline comment="mobile">MIUI 13</Monoline>
-                            <Monoline comment="server, primary">Debian 11 (bullseye)</Monoline>
+                            <Monoline comment="mobile">HyperOS</Monoline>
+                            <Monoline comment="server, primary">Alpine Linux</Monoline>
                             <Monoline comment="server">Debian 12 (bookworm)</Monoline>
-                            <Monoline comment="server">Ubuntu 22.04 (jammy)</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                 </ProfileAddons>
@@ -107,44 +104,6 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         platform="Telegram"
                     >
                         @ricky8955555
-                    </AccountShowcase.Account>
-
-                    <AccountShowcase.Account
-                        href="https://twitter.com/ricky8955555/"
-                        icon={<FaTwitter />}
-                        iconBackground="#1DA1F2"
-                        platform="Twitter"
-                    >
-                        @ricky8955555
-                    </AccountShowcase.Account>
-
-                    <AccountShowcase.Account
-                        href="https://decent.moe/@ricky"
-                        icon={<FaComment />}
-                        iconBackground="#62CCFF"
-                        platform="Fediverse (Misskey)"
-                    >
-                        @ricky@decent.moe
-                    </AccountShowcase.Account>
-                </AccountShowcase.Category>
-
-                <AccountShowcase.Category title="networking">
-                    <AccountShowcase.Account
-                        href="https://pigeonhole.eu.org"
-                        icon={<FaNetworkWired />}
-                        iconBackground="#000000"
-                        platform="DN42"
-                    >
-                        PIGEONHOLE-AS
-                    </AccountShowcase.Account>
-
-                    <AccountShowcase.Account
-                        href="https://huajitech.net/network"
-                        icon={<FaNetworkWired />}
-                        iconBackground="#121212"
-                        platform="NeoNetwork"
-                    >
-                        HJTMESH-AS
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
@@ -186,32 +145,13 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         Hi, here is <del>a humanoid tool</del> {'(aka. "工具人" in Chinese)'}.
                     </Paragraph>
                     <Paragraph>
-                        {"I'm"} a shotacon who is fond of shota in anime. And I enjoy listening songs sung by virtual
-                        singers.
+                        {"I'm"} a shotacon and lolicon who is fond of shota and loli in anime. And I enjoy listening
+                        songs sung by virtual singers (e.g. VOCALOID, UTAU, SynthV).
                     </Paragraph>
                 </Description>
                 <Description>
                     <Paragraph>A garbage knowing nothing.</Paragraph>
                     <Paragraph>Seldom play game. More likely play the easy and casual games.</Paragraph>
-                    <Paragraph>
-                        Want to be <del>and have</del> a cute boy. {'(XD'}
-                    </Paragraph>
-                    <Paragraph>
-                        Love&nbsp;
-                        <a href="https://vocaloid.fandom.com/wiki/Kagamine_Rin_%26_Len" className="link">
-                            Kagamine Len
-                        </a>
-                        <span className="external-link-icon">
-                            <FaExternalLinkAlt />
-                        </span>
-                        &nbsp;and&nbsp;
-                        <a href="https://hunterxhunter.fandom.com/wiki/Killua_Zoldyck" className="link">
-                            Killua Zoldyck
-                        </a>
-                        <span className="external-link-icon">
-                            <FaExternalLinkAlt />
-                        </span>
-                    </Paragraph>
                 </Description>
             </Row>
 
