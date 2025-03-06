@@ -7,7 +7,7 @@ import {
     FaWikipediaW,
     FaCreativeCommons,
 } from 'react-icons/fa'
-import { IoBulb, IoGitBranch, IoImage } from 'react-icons/io5'
+import { IoBrowsersOutline, IoBulb, IoGitBranch, IoImage } from 'react-icons/io5'
 import { AccountShowcase } from '../components/display/accounts'
 import { Footer, FooterParagraph } from '../components/display/footer'
 import { Header, ProfileAddonGroup, ProfileAddonGroupTitle, ProfileAddons } from '../components/display/header'
@@ -187,6 +187,11 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         <FaExternalLinkAlt />
                     </span>
                     .
+                </FooterParagraph>
+                <FooterParagraph icon={IoBrowsersOutline}>
+                    <a href="https://icp.gov.moe/?keyword=20253900" className="link">
+                        萌ICP备20253900号
+                    </a>
                 </FooterParagraph>
             </Footer>
 
