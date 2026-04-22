@@ -170,15 +170,13 @@ export const Header = ({
     children,
     profileName,
     profilePicture,
-    profileSource,
 }: PropsWithChildren<{
     profileName: ReactNode
     profilePicture: StaticImageData
-    profileSource: string
 }>) => (
     <header className="header row">
         <div className="column column-picture">
-            <a className="picture-container" href={profileSource}>
+            <a className="picture-container">
                 <Image src={profilePicture} alt="profile picture" style={{ height: 'auto', width: '100%' }} />
             </a>
         </div>

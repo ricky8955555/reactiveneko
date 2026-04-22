@@ -35,7 +35,6 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         Phrinky
                     </>
                 }
-                profileSource="https://www.pixiv.net/artworks/97558489"
             >
                 <ProfileAddons>
                     <ProfileAddonGroup>
@@ -64,18 +63,19 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Programming Languages</ProfileAddonGroupTitle>
                         <MonolineGroup>
+                            <Monoline comment="primary">Zig</Monoline>
                             <Monoline comment="primary">Python</Monoline>
                             <Monoline comment="installed">C#</Monoline>
-                            <Monoline comment="partially installed">HTML, CSS, JS</Monoline>
+                            <Monoline comment="installing">HTML, CSS, JS</Monoline>
                             <Monoline comment="installing">Rust</Monoline>
-                            <Monoline comment="installing">Zig</Monoline>
                             <Monoline comment="uninstalling (?)">VB, VB.NET</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Operating Systems</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="pc">openSUSE Tumbleweed</Monoline>
+                            <Monoline comment="laptop">Fedora 43</Monoline>
+                            <Monoline comment="desktop">openSUSE Tumbleweed</Monoline>
                             <Monoline comment="mobile">HyperOS</Monoline>
                             <Monoline comment="server, primary">Alpine Linux</Monoline>
                             <Monoline comment="server">Debian 12 (bookworm)</Monoline>
@@ -117,26 +117,6 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                         rkmiao@duck.com
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
-
-                <AccountShowcase.Category title="wikis">
-                    <AccountShowcase.Account
-                        href="https://zh.wikipedia.org/wiki/User:Ricky8955555"
-                        icon={<FaWikipediaW />}
-                        iconBackground="#000000"
-                        platform="Wikipedia"
-                    >
-                        Ricky8955555
-                    </AccountShowcase.Account>
-
-                    <AccountShowcase.Account
-                        href="https://zh.moegirl.org.cn/User:Rkmiao"
-                        icon={<FaCreativeCommons />}
-                        iconBackground="#000000"
-                        platform="Moegirl"
-                    >
-                        Rkmiao
-                    </AccountShowcase.Account>
-                </AccountShowcase.Category>
             </AccountShowcase.Container>
 
             <Row>
@@ -172,16 +152,6 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     Background illustrated by&nbsp;
                     <a href="https://www.pixiv.net/artworks/82517404" className="link">
                         海ばたり
-                    </a>
-                    <span className="external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                    .
-                </FooterParagraph>
-                <FooterParagraph icon={IoImage}>
-                    Profile illustrated by&nbsp;
-                    <a href="https://www.pixiv.net/artworks/97558489" className="link">
-                        8765
                     </a>
                     <span className="external-link-icon">
                         <FaExternalLinkAlt />
