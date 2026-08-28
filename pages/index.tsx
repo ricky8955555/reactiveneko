@@ -74,8 +74,8 @@ const IndexPage: NextPage = ({ deployTarget }: IndexPageProps) => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>Operating Systems</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="laptop">Fedora 43</Monoline>
-                            <Monoline comment="desktop">openSUSE Tumbleweed</Monoline>
+                            <Monoline comment="laptop">Gentoo Linux</Monoline>
+                            <Monoline comment="desktop">Manjaro</Monoline>
                             <Monoline comment="mobile">HyperOS</Monoline>
                             <Monoline comment="server, primary">Alpine Linux</Monoline>
                             <Monoline comment="server">Debian 12 (bookworm)</Monoline>
